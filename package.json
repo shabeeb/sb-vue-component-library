@@ -2,6 +2,13 @@
   "name": "vue-component-library",
   "version": "0.1.0",
   "private": true,
+  "author": { 
+    "name" : "Faiz Shabeeb K",
+    "email" : "mail@shabeebk.com",
+    "url" : "http://shabeebk.com/"
+  },
+  "main": "./dist/lib.umd.min.js",
+  "files": [ "dist/*"],
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
