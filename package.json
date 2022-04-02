@@ -2,6 +2,7 @@
   "name": "vue-component-library",
   "version": "0.1.0",
   "private": true,
+  "license": "MIT",
   "author": { 
     "name" : "Shabeeb K",
     "email" : "mail@shabeebk.com",
