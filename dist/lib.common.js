@@ -4540,14 +4540,14 @@ var es_function_name = __webpack_require__(8309);
 ;// CONCATENATED MODULE: external {"commonjs":"vue","commonjs2":"vue","root":"Vue"}
 var external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject = require("vue");
 var external_commonjs_vue_commonjs2_vue_root_Vue_default = /*#__PURE__*/__webpack_require__.n(external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject);
-;// CONCATENATED MODULE: ./node_modules/@vue/vue-loader-v15/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/components/Button.vue?vue&type=template&id=74d327ec&scoped=true&
+;// CONCATENATED MODULE: ./node_modules/@vue/vue-loader-v15/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/components/myButton.vue?vue&type=template&id=8dd3f244&scoped=true&
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('button',{staticClass:"simple-button",on:{"click":_vm.incrementCount}},[_vm._v(_vm._s(_vm.text))])])}
 var staticRenderFns = []
 
 
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es.array.concat.js
 var es_array_concat = __webpack_require__(2222);
-;// CONCATENATED MODULE: ./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-40[0].rules[0].use[1]!./node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/components/Button.vue?vue&type=script&lang=js&
+;// CONCATENATED MODULE: ./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-40[0].rules[0].use[1]!./node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/components/myButton.vue?vue&type=script&lang=js&
 
 //
 //
@@ -4555,7 +4555,7 @@ var es_array_concat = __webpack_require__(2222);
 //
 //
 //
-/* harmony default export */ var Buttonvue_type_script_lang_js_ = ({
+/* harmony default export */ var myButtonvue_type_script_lang_js_ = ({
   name: "myButton",
   data: function data() {
     return {
@@ -4576,12 +4576,12 @@ var es_array_concat = __webpack_require__(2222);
     }
   }
 });
-;// CONCATENATED MODULE: ./src/components/Button.vue?vue&type=script&lang=js&
- /* harmony default export */ var components_Buttonvue_type_script_lang_js_ = (Buttonvue_type_script_lang_js_); 
-;// CONCATENATED MODULE: ./node_modules/mini-css-extract-plugin/dist/loader.js??clonedRuleSet-12[0].rules[0].use[0]!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-12[0].rules[0].use[1]!./node_modules/@vue/vue-loader-v15/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-12[0].rules[0].use[2]!./node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/components/Button.vue?vue&type=style&index=0&id=74d327ec&scoped=true&lang=css&
+;// CONCATENATED MODULE: ./src/components/myButton.vue?vue&type=script&lang=js&
+ /* harmony default export */ var components_myButtonvue_type_script_lang_js_ = (myButtonvue_type_script_lang_js_); 
+;// CONCATENATED MODULE: ./node_modules/mini-css-extract-plugin/dist/loader.js??clonedRuleSet-12[0].rules[0].use[0]!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-12[0].rules[0].use[1]!./node_modules/@vue/vue-loader-v15/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-12[0].rules[0].use[2]!./node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/components/myButton.vue?vue&type=style&index=0&id=8dd3f244&scoped=true&lang=css&
 // extracted by mini-css-extract-plugin
 
-;// CONCATENATED MODULE: ./src/components/Button.vue?vue&type=style&index=0&id=74d327ec&scoped=true&lang=css&
+;// CONCATENATED MODULE: ./src/components/myButton.vue?vue&type=style&index=0&id=8dd3f244&scoped=true&lang=css&
 
 ;// CONCATENATED MODULE: ./node_modules/@vue/vue-loader-v15/lib/runtime/componentNormalizer.js
 /* globals __VUE_SSR_CONTEXT__ */
@@ -4683,7 +4683,7 @@ function normalizeComponent (
   }
 }
 
-;// CONCATENATED MODULE: ./src/components/Button.vue
+;// CONCATENATED MODULE: ./src/components/myButton.vue
 
 
 
@@ -4693,26 +4693,26 @@ function normalizeComponent (
 /* normalize component */
 
 var component = normalizeComponent(
-  components_Buttonvue_type_script_lang_js_,
+  components_myButtonvue_type_script_lang_js_,
   render,
   staticRenderFns,
   false,
   null,
-  "74d327ec",
+  "8dd3f244",
   null
   
 )
 
-/* harmony default export */ var Button = (component.exports);
+/* harmony default export */ var myButton = (component.exports);
 ;// CONCATENATED MODULE: ./src/components/index.js
 
 /* harmony default export */ var components = ({
-  Button: Button
+  Button: myButton
 });
 ;// CONCATENATED MODULE: ./src/lib-setup.js
 
 
- // import Button from "@/components/Button";
+ // import myButton from "@/components/myButton";
 
 /**
  * install function
@@ -4729,7 +4729,7 @@ function install(Vue) {
   if (install.installed) return;
   install.installed = true; // registering component to use as  plugin
   //   if we need to use a single component only use below line only
-  //   Vue.component("my-button", Button);
+  //   Vue.component("my-button", myButton);
 
   for (var prop in components) {
     // eslint-disable-next-line no-prototype-builtins

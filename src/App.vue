@@ -9,17 +9,17 @@
         >Read Full Blog Here
       </a>
     </div>
-    <Button />
+    <my-Button />
   </div>
 </template>
 
 <script>
-import Button from "./components/Button.vue";
+import myButton from "./components/myButton.vue";
 
 export default {
   name: "App",
   components: {
-    Button,
+    myButton,
   },
 };
 </script>

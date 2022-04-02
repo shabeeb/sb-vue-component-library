@@ -1,6 +1,6 @@
 import OurVue from "vue";
 import components from "./components";
-// import Button from "@/components/Button";
+// import myButton from "@/components/myButton";
 
 /**
  * install function
@@ -18,7 +18,7 @@ function install(Vue) {
 
   // registering component to use as  plugin
   //   if we need to use a single component only use below line only
-  //   Vue.component("my-button", Button);
+  //   Vue.component("my-button", myButton);
   for (const prop in components) {
     // eslint-disable-next-line no-prototype-builtins
     if (components.hasOwnProperty(prop)) {
